@@ -4,7 +4,7 @@ Vue boilerplate
 *Component structure:*
 
 ```
-├── config.js
+├── config.json
 ├── index.vue
 ├── script.js
 ├── style.styl

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { mount } from 'vue-test-utils'
 import ItemList from './index.vue'
-import config from './config'
+import config from './config.json'
 
 describe('Item list', () => {
   it('Pictures should be in view', () => {
