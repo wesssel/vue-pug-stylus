@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --watch",
-    "test": "cross-env NODE_ENV=test mocha-webpack --webpack-config webpack.config.js --require test/setup.js js/**/*.spec.js"
+    "test": "cross-env NODE_ENV=test mocha-webpack --webpack-config webpack.config.js --require test/setup.js js/**/*.spec.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Wessel van der Pal",
   "license": "ISC",
@@ -30,5 +32,11 @@
     "vue-test-utils": "^1.0.0-beta.8",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^1.6.0"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^3.3.3",
+    "@storybook/addon-actions": "^3.3.3",
+    "@storybook/addon-links": "^3.3.3",
+    "babel-preset-vue": "^2.0.0"
   }
 }

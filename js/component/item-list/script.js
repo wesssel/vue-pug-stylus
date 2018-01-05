@@ -7,5 +7,5 @@ export default {
     return {
       items: config.artists,
     }
-  }
+  },
 }
